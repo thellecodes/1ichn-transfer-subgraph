@@ -1,0 +1,5 @@
+type AllTransfer @entity {
+  id: ID!
+  from: Bytes!
+  value: BigInt!
+}
